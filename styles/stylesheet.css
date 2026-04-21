@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 48px;
+    background: linear-gradient(to top,#84f5f5,#015463);
+}
+
+/*Cards */
+.Cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.card {
+    width: 250px;
+    padding: 32px;
+    background: #eee;
+    transition:0.3s;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px;
+}
+
+.card:hover{
+    background: linear-gradient(to right,#0e7ee7,#c90a0a);
+    transform: scale(1.05)
+}
+
+.card p {
+    font-size: 15 px;
+    line-height: 1.4px;
+}
+
+/* Me*/
+.Me {
+    text-align: center;
+    padding: 48px;
+    background: linear-gradient(to bottom,#e72163,#8fd85e);
+}
+
+/* ContactInfo*/
+.ContactInfo {
+    text-align: center;
+    padding: 48px;
+    background: linear-gradient(to right,#01e5f5,#180ae2);
+}
